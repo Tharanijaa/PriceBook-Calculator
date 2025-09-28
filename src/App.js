@@ -3,7 +3,7 @@ import { Calculator } from "lucide-react";
 import "./App.css"; // <-- you’re already using App.css
 
 export default function PriceCalculator() {
-  const [rawData, setRawData] = useState([]);
+   const [rawData, setRawData] = useState(null);
   const [priceData, setPriceData] = useState([]);
   const [region, setRegion] = useState("");
   const [country, setCountry] = useState("");

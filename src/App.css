@@ -1,0 +1,93 @@
+
+/* 🌟 Calculator Container */
+.calculator-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: linear-gradient(135deg, #f0f4ff, #ffffff);
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.calculator-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(37, 99, 235, 0.3);
+}
+
+/* ✨ Title */
+.calculator-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #1e3a8a;
+  text-shadow: 1px 1px 2px rgba(30, 58, 138, 0.2);
+}
+
+/* 🏷️ Labels */
+.label {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  display: block;
+  color: #1f2937;
+}
+
+/* 📝 Inputs & Selects */
+.select,
+.input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  background-color: #f8fafc;
+  transition: all 0.3s ease;
+}
+
+.select:focus,
+.input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25);
+  background-color: #ffffff;
+}
+
+/* 🔘 Button */
+.button {
+  width: 100%;
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  color: white;
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #1d4ed8, #1e40af);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(37, 99, 235, 0.4);
+}
+/* ✅ Result Box – Light Blue version */
+.result {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff; /* text white for contrast */
+  text-align: center;
+  background: linear-gradient(135deg, #60a5fa, #3b82f6); /* light blue gradient */
+  padding: 1.2rem;
+  border-radius: 12px;
+  border: 1px solid #2563eb; /* slightly darker border */
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
